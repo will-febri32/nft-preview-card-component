@@ -1,0 +1,132 @@
+body {
+  box-sizing: border-box;
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.avatar {
+  height: 24px;
+  padding-right: 6px;
+  width: 24px;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 240px;
+}
+
+.col {
+  padding: 0 12px;
+}
+
+.container {
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 12px;
+}
+
+.creator {
+  border-top: 2px solid hsl(215, 32%, 27%);
+  align-items: center;
+  display: flex;
+  padding-top: 12px;
+}
+
+.currency,
+.time {
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+.currency > svg,
+.time > svg {
+  padding-right: 6px;
+}
+
+.currency {
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  justify-content: flex-end;
+}
+
+.desc {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+.hover {
+  align-items: center;
+  background-color: hsl(178, 100%, 50%, 0.5);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+
+  top: 0;
+}
+
+.image {
+  border-radius: 12px;
+  display: flex;
+  margin-bottom: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image > img {
+  width: 100%;
+}
+
+.image:hover > .hover {
+  opacity: 1;
+}
+
+.row {
+  display: flex;
+  margin: 0 -12px 12px -12px;
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 12px;
+  width: fit-content;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.user {
+  font-weight: 300;
+}
+
+.user > a {
+  color: inherit;
+}
+
+.user > a:hover {
+  color: hsl(178, 100%, 50%);
+}
