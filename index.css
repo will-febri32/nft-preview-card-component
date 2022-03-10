@@ -87,7 +87,7 @@ a {
   top: 0;
 }
 
-.image {
+.preview {
   border-radius: 12px;
   display: flex;
   margin-bottom: 12px;
@@ -95,11 +95,11 @@ a {
   position: relative;
 }
 
-.image > img {
+.preview > img {
   width: 100%;
 }
 
-.image:hover > .hover {
+.preview:hover > .hover {
   opacity: 1;
 }
 
