@@ -109,12 +109,16 @@ a {
 }
 
 .title {
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.title > a {
   color: hsl(0, 0%, 100%);
   display: block;
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
-  margin-bottom: 12px;
   width: fit-content;
 }
 
